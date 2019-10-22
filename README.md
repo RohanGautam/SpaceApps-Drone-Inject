@@ -1,16 +1,11 @@
-# uav_control
+# SpaceApps-Drone-Inject
+An app to edit and inject code into a drone (or a UAV).  Winner (Singapore), NASA SpaceApps challenge, 2019.
 
-A new Flutter project.
+The challenge we tackled is [here](https://2019.spaceappschallenge.org/challenges/planets-near-and-far/out-world/details).
 
-## Getting Started
+## Developed alongside `SpaceApps-Drone-Control`, located [here](https://github.com/RohanGautam/SpaceApps-Drone-Control).
 
-This project is a starting point for a Flutter application.
+# Working Demo:
+[![Injecting code from app to the pi](https://i.ibb.co/8X5Vffv/https-i-ytimg-com-vi-7-Pb-V9-To-Y97w-maxresdefault.jpg)](https://www.youtube.com/watch?v=7PbV9ToY97w&feature=youtu.be "Injecting code from app to the pi")
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> Communication is done via websockets between the flutter application(client) and the RPi(server), so make sure you change HOST (both in `pythonServer.py` and `clientWebSocket.dart`) to your particular private IP address, and ensure both the Pi and the flutter mobile app are connected to the same network.
