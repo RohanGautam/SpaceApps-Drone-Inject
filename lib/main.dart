@@ -53,7 +53,6 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         maxLines: null,
         onChanged: (data) {
-          print(data);
           setState(() {
             dataToSend = data;
           });
@@ -67,7 +66,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void sendData() {
-    print('Sending:$dataToSend');
     ClientWebSocket(dataToSend);
   }
 
