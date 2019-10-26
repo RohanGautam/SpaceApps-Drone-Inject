@@ -66,13 +66,13 @@ import time
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(8, GPIO.OUT, initial = GPIO.LOW)
-count = 1
-while count<10:
-  GPIO.output(8, GPIO.HIGH)
-  time.sleep(1)
-  GPIO.output(8, GPIO.LOW)
-  time.sleep(1)
-  count+=1
+count = 0
+while count<5:
+    GPIO.output(8, GPIO.HIGH)
+    time.sleep(1)
+    GPIO.output(8, GPIO.LOW)
+    time.sleep(1)
+    count+=1
   """;
   }
 }

@@ -6,6 +6,6 @@ The challenge we tackled is [here](https://2019.spaceappschallenge.org/challenge
 ## Developed alongside `SpaceApps-Drone-Control`, located [here](https://github.com/RohanGautam/SpaceApps-Drone-Control).
 
 # Working Demo:
-[![Injecting code from app to the pi](https://i.ibb.co/8X5Vffv/https-i-ytimg-com-vi-7-Pb-V9-To-Y97w-maxresdefault.jpg)](https://www.youtube.com/watch?v=7PbV9ToY97w&feature=youtu.be "Injecting code from app to the pi")
+[![Code injection](https://i.ibb.co/yWmXMQy/https-i-ytimg-com-vi-o-E0-ZFWDUZx-Q-maxresdefault.jpg)](https://www.youtube.com/watch?v=oE0ZFWDUZxQ&feature=youtu.be "Code injection")
 
 > Communication is done via websockets between the flutter application(client) and the RPi(server), so make sure you change HOST (both in `pythonServer.py` and `clientWebSocket.dart`) to your particular private IP address, and ensure both the Pi and the flutter mobile app are connected to the same network.

@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: sendData,
-        tooltip: 'Increment',
+        tooltip: 'Send data to the UAV',
         icon: Icon(Icons.send),
         label: Text("Send Data"),
       ), // This trailing comma makes auto-formatting nicer for build methods.
